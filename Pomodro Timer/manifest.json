@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "version": "1.0",
+    "description": "A minimalist Pomodoro Chrome Extension with dark mode, custom timers, and tab-out notifications.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "image16.png",
+            "48": "image48.png",
+            "128": "image128.png"
+        }
+    },
+    "icons": {
+        "16": "image16.png",
+        "48": "image48.png",
+        "128": "image128.png"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "notifications",
+        "alarms",
+        "storage"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "image16.png",
+                "image48.png",
+                "image128.png"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

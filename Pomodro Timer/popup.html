@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pomodoro Timer</h1>
+            <div class="theme-switch">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+        <div class="timer">
+            <span id="timer">25:00</span>
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="time-selector">
+            <button id="pomodoro" class="active">Pomodoro (25:00)</button>
+            <div class="custom-time">
+                <input type="number" id="minutes" min="0" max="59" value="0" placeholder="Min">
+                <span>:</span>
+                <input type="number" id="seconds" min="0" max="59" value="0" placeholder="Sec">
+                <button id="set-custom">Set Custom Time</button>
+            </div>
+        </div>
+    </div>
+    <div class="credit">Made by Sami :)</div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
