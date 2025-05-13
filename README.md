@@ -16,7 +16,7 @@
 
 ## 🚀 How to Install
 
-1. Go to the [Chrome Web Store](#) *(link coming soon)*  
+1. Go to the [Chrome Web Store](https://chromewebstore.google.com/detail/pomodoro-timer/cneholcmkmbjkaeioadkobkapggfdfka?hl=en)
 2. Click **“Add to Chrome”**  
 3. Pin the extension from the puzzle icon  
 4. Click the icon to start your Pomodoro session  
